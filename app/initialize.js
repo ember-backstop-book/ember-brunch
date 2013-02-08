@@ -1,5 +1,5 @@
 
-window.App = require('app');
+require('app');
 
 //////////////////////////////////
 // Templates

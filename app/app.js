@@ -1,3 +1,3 @@
 // Application bootstrapper
 
-module.exports = Em.Application.create();
+App = Em.Application.create();
