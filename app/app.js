@@ -1,3 +1,3 @@
 // Application bootstrapper
 
-App = Em.Application.create();
+App = Ember.Application.create();
