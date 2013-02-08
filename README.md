@@ -13,11 +13,11 @@ See more info on the [official site](http://brunch.io)
 
 ## Usage
     
-    brunch new myapp -s git://github.com/icholy/ember-brunch.git
+    brunch new myapp -s git://github.com/ember-backstop-book/ember-brunch.git
 
 if you wanted to use the `empty` skeleton branch
 
-    git clone git://github.com/icholy/ember-brunch.git -b empty
+    git clone git://github.com/ember-backstop-book/ember-brunch.git -b empty
     brunch new myapp -s ./ember-brunch/
 
 Once the project has been created, you can start a server by running
