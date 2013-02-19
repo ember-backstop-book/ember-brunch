@@ -20,7 +20,7 @@
     "css-brunch": ">= 1.0 < 1.5",
     "uglify-js-brunch": ">= 1.0 < 1.5",
     "clean-css-brunch": ">= 1.0 < 1.5",
-    "ember-handlebars-brunch": "git://github.com/icholy/ember-handlebars-brunch.git"
+    "ember-handlebars-brunch": "git://github.com/ember-backstop-book/ember-handlebars-brunch.git"
   },
   "devDependencies": {
     "mocha": "0.14.0",
