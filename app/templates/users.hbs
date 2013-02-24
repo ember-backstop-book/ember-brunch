@@ -1,0 +1,13 @@
+<div class="span3">
+  <ul class="nav nav-list">
+    {{#each controller}}
+      <li>{{#linkTo "users.show" this}}{{id}}: {{displayName}}{{/linkTo}}</li>
+    {{/each}}
+  </ul>
+  <br>
+  <p>{{#linkTo users.new classNames="btn"}}New User{{/linkTo}}</p>
+</div>
+
+<div class="span9">
+  {{outlet}}
+</div>
