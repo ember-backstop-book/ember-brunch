@@ -1,0 +1,8 @@
+.container-fluid {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo, .logo:hover {
+  text-decoration: none;
+  color: black;
+}
