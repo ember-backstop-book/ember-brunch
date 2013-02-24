@@ -14,4 +14,5 @@ require('templates/tickets/show');
 require('templates/tickets/index');
 
 require('views/applicationView');
+require('views/tickets');
 
