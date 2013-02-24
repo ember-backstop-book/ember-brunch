@@ -4,6 +4,10 @@ require('store');
 require('router');
 
 require('controllers/application');
+require('controllers/ticketsEdit');
+require('controllers/ticketsNew');
+require('controllers/ticketsShow');
+require('controllers/users');
 
 require('routes/tickets');
 require('routes/tickets/edit');
@@ -31,4 +35,5 @@ require('views/applicationView');
 require('views/tickets');
 require('views/ticketStatus');
 require('views/users');
+require('views/userSelect');
 

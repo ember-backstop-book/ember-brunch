@@ -7,6 +7,12 @@
 <h5>Status:</h5>
 {{view App.TicketStatus selectionBinding="status"}}
 
+<h5>Reported By:</h5>
+{{view App.UserSelect contentBinding="controllers.users" selectionBinding="reportedBy" prompt="Select a User"}}
+
+<h5>Assigned To:</h5>
+{{view App.UserSelect contentBinding="controllers.users" selectionBinding="assignedTo" prompt="Select a User"}}
+
 <br><br>
 <button {{action "save"}}>Save</button>
 <button {{action "cancel"}}>Cancel</button>
