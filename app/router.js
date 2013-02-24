@@ -1,4 +1,6 @@
 App.Router.map(function() {
   this.route('index', { path: '/'});
-  this.route('tickets', { path: '/tickets'});
+  this.resource('tickets', function() {
+    this.route('show', { path: '/:ticket_id' });
+  }); 
 });

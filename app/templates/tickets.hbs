@@ -1,7 +1,7 @@
 <div class="span3">
   <ul class="nav nav-list">
     {{#each controller}}
-      <li>{{id}}: {{title}}</li>
+      <li>{{#linkTo "tickets.show" this}}{{id}}: {{title}}{{/linkTo}}</li>
     {{/each}}
   </ul>
 
