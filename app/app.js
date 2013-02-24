@@ -9,7 +9,10 @@ require('controllers/ticketsNew');
 require('controllers/ticketsShow');
 require('controllers/users');
 
+require('helpers/formattedDate');
+
 require('routes/tickets');
+require('routes/tickets/show');
 require('routes/tickets/edit');
 require('routes/tickets/new');
 require('routes/users');
@@ -32,6 +35,7 @@ require('templates/users/edit');
 require('templates/users/new');
 
 require('views/applicationView');
+require('views/commentField');
 require('views/tickets');
 require('views/ticketStatus');
 require('views/users');
